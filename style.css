@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* background-image: url(./clock.png); */
+}
+h1
+{
+    text-align: center;
+    color:cyan;
+    border: 10px solid cyan;
+    padding: 10px 10px;
+    margin: 8px 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+#clockContainer
+{
+    position: relative;
+    /* margin auto helps us to position yhe img at the center  */
+    margin: auto;  
+    /* height: 50vw;
+    width: 80vh;  */
+    height: 440px;
+    width: 440px;
+    background-image: url(./clock.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border: 2px solid red; */
+}
+#hour,#minute,#second
+{
+    /* if positon is absolute then we can adjust the placement of our element by top,bottom,left,rigt prperties  */
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/* #centerPoint
+{
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    height: 2.5%;
+    width: 2%;
+    top: 38.9%;
+    right: 49.1%;
+} */
+#hour
+{
+    height: 21%;
+    width: 3%;
+    top: 30%;
+    left: 47.8%;
+    opacity: 0.9;
+    /* display: none; */
+}
+#minute
+{
+    height: 35%;
+    width: 2%;
+    top: 17%;
+    left: 48.8%;
+    opacity: 0.9;
+    /* display: none; */
+}
+#second
+{
+    height: 33%;
+    width: 1%;
+    top: 18%;
+    left: 49.3%;
+    opacity: 0.9;
+    /* display: none; */
+}
+
+/* #clockImg
+{
+    padding: 100px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.clockBlock img
+{
+    height: 70vh;
+} */
